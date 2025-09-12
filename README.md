@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=yIpxrDfX6ek" target="_blank">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrDzOtEMcLdLbbfw0B8Zx6de0G-cs1x1XjXg&s" width="400" alt="Logo">
+    <img src="Tesis-Biblioteca\public\img\565-5658748_guts-casca-griffith-black-and-white-woman-person.png" width="400" alt="Logo">
   </a>
 </p>
 

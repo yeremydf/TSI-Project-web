@@ -49,7 +49,7 @@ composer install
 npm install && npm run build
 cp .env.example .env
 
-Inicial XAMPP apache server && MySQL
+Inicial XAMPP apache server && My0.SQL
 
 Editar el archivo env con credenciales locales
 

@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=yIpxrDfX6ek" target="_blank">
-    <img src="https://pnganime.com/web/image-thumbnails/513/869-md.png" width="400" alt="Logo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrDzOtEMcLdLbbfw0B8Zx6de0G-cs1x1XjXg&s" width="400" alt="Logo">
   </a>
 </p>
 

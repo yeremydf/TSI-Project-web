@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=yIpxrDfX6ek" target="_blank">
-    <img src="https://e1.pngegg.com/pngimages/671/678/png-clipart-one-piece-jolly-roger-dock-and-folder-icons-by-luffy-jolly-roger-straw-hat-pirates-logo.png" width="400" alt="Logo">
+    <img src="https://pnganime.com/images/download/luffy-gear-5-colored-transparent-png" width="400" alt="Logo">
   </a>
 </p>
 

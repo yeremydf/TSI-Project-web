@@ -34,6 +34,10 @@ Asegúrate de tener instalados:
 - [Git](https://git-scm.com/)
 
 ---
+## ⚙️ Instalación Automatica
+Iniciar archivo bash "start.sh"
+chmod +x setup.sh
+./setup.sh
 
 ## ⚙️ Instalación en local
 
@@ -42,3 +46,21 @@ Clonar el repositorio:
 ```bash
 git clone https://github.com/TryingT0Dev/TSI-Project-web.git
 cd TSI-Project-web
+
+composer install
+npm install && npm run build
+cp .env.example .env
+
+Editar el archivo env con credenciales locales
+
+php artisan migrate --seed
+php artisan key:generate
+php artisan serve
+npm run dev
+npm run build
+php artisan migrate:fresh --seed
+
+
+
+Email: test@example.com
+Password: password

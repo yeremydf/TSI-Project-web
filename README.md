@@ -62,5 +62,5 @@ php artisan migrate:fresh --seed
 
 
 
-Email: test@example.com
-Password: password
+Email: admin@example.com
+Password: password123

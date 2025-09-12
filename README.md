@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=yIpxrDfX6ek" target="_blank">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROt7-khL-17l2yTtnkJMQMgr9BMdQTQ3CGuw&s" width="400" alt="Logo">
+    <img src="https://www.adhesivosnatos.com/wp-content/uploads/2016/10/one-piece-luffy-calavera-pegatina.png" width="400" alt="Logo">
   </a>
 </p>
 

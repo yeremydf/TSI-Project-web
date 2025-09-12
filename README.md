@@ -16,8 +16,6 @@
 
 ## 📖 Proyecto Biblioteca (Laravel 12)
 
-Repositorio oficial: 👉 [TSI-Project-web](https://github.com/TryingT0Dev/TSI-Project-web)  
-
 Este proyecto es un **sistema de gestión de biblioteca** construido con Laravel 12.  
 Incluye autenticación, panel administrativo, manejo de libros y usuarios.  
 

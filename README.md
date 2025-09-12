@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=yIpxrDfX6ek" target="_blank">
-    <img src="https://www.adhesivosnatos.com/wp-content/uploads/2016/10/one-piece-luffy-calavera-pegatina.png" width="400" alt="Logo">
+    <img src="https://pnganime.com/images/download/luffy-gear-5-colored-transparent-png" width="400" alt="Logo">
   </a>
 </p>
 

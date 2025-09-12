@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=yIpxrDfX6ek" target="_blank">
-    <img src="https://www.vhv.rs/dpng/d/516-5166355_the-fickle-vagrant-on-twitter-one-piece-luffy.png" width="400" alt="Logo">
+    <img src="https://www.pngegg.com/es/png-fbmsk" width="400" alt="Logo">
   </a>
 </p>
 

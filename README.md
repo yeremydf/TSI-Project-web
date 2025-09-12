@@ -35,8 +35,8 @@ Asegúrate de tener instalados:
 
 ---
 ## ⚙️ Instalación Automatica
-- Iniciar archivo bash "start.sh".
-- chmod +x setup.sh.
+- Iniciar archivo bash "start.sh"
+- chmod +x setup.sh
 - ./setup.sh
 ---
 ## ⚙️ Instalación en local

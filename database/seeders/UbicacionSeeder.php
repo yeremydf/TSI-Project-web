@@ -4,14 +4,17 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Ubicaciones;
+use App\Models\Ubicacion;
 
 class UbicacionSeeder extends Seeder
 {
     public function run(): void
     {
-        Ubicaciones::create(['letra_librero' => 'A']);
-        Ubicaciones::create(['letra_librero' => 'B']);
-        Ubicaciones::create(['letra_librero' => 'C']);
+        Ubicacion::create(['estante' => 'A']);
+        Ubicacion::create(['estante' => 'B']);
+        Ubicacion::create(['seccion' => 'D']);
+        Ubicacion::create(['seccion' => 'E']);
+        Ubicacion::create(['seccion' => 'F']);
+        Ubicacion::create(['estante' => 'C']);
     }
 }

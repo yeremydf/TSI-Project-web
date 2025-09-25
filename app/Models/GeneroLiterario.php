@@ -4,14 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-class Autor extends Model
+class GeneroLiterario extends Model
 {
     use HasFactory;
-    protected $table = 'autores';
-    protected $fillable = ['nombre', 'apellido'];
-    
+    protected $table = 'generos_literarios';
+    protected $fillable = ['nombre'];
+
     public function libros()
     {
-        return $this->hasMany(Libro::class);
+        return $this->hasMany(Libro::class, 'genero_id');
     }
 }

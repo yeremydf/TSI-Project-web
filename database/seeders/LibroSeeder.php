@@ -5,6 +5,8 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Libro;
+use App\Models\Autor;
+use App\Models\GeneroLiterario;
 
 class LibroSeeder extends Seeder
 {
@@ -13,22 +15,28 @@ class LibroSeeder extends Seeder
      */
     public function run(): void
     {
+        $autor1 = Autor::where('nombre', 'Gabriel García Márquez')->first();
+        $autor2 = Autor::where('nombre', 'Isabel Allende')->first();
+        $genero1 = GeneroLiterario::where('nombre', 'Novela')->first();
+        $genero2 = GeneroLiterario::where('nombre', 'Fábula')->first();
         Libro::create([
-            'isbn' => '978-956-1234567',
+            'isbn_libro' => '978-956-1234567',
             'titulo' => 'Cien años de soledad',
-            'autor' => 'Gabriel García Márquez',
-            'genero' => 'Novela',
-            'fecha_publicacion' => '1967-05-30',
+            'autor_id' => $autor1->id,
+            'genero_id' => $genero1->id,
+            'editorial' => 'Editorial Sudamericana',
+            'fecha_publicacion' => '1967-01-01',
             'stock_total' => 10,
             'stock_disponible' => 10,
         ]);
 
         Libro::create([
-            'isbn' => '978-956-7654321',
+            'isbn_libro' => '978-956-7654321',
             'titulo' => 'El Principito',
-            'autor' => 'Antoine de Saint-Exupéry',
-            'genero' => 'Fábula',
-            'fecha_publicacion' => '1943-04-06',
+            'autor_id' => $autor2->id,
+            'genero_id' => $genero2->id,
+            'editorial' => 'Editorial Gallimard',
+            'fecha_publicacion' => '1943-01-01',
             'stock_total' => 5,
             'stock_disponible' => 5,
         ]);

@@ -7,9 +7,10 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration {
     public function up(): void
     {
-        Schema::create('autores', function (Blueprint $table) {
-            $table->id('id_autor');
-            $table->string('nom_autor');
+       Schema::create('autores', function (Blueprint $table) {
+            $table->id();
+            $table->string('nombre');
+            $table->string('apellido')->nullable();
             $table->timestamps();
         });
     }

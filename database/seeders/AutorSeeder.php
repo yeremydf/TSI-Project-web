@@ -10,8 +10,8 @@ class AutorSeeder extends Seeder
 {
     public function run(): void
     {
-        Autor::create(['nom_autor' => 'Gabriel García Márquez']);
-        Autor::create(['nom_autor' => 'Isabel Allende']);
-        Autor::create(['nom_autor' => 'J.K. Rowling']);
+        Autor::create(['nombre' => 'Gabriel García Márquez']);
+        Autor::create(['nombre' => 'Isabel Allende']);
+        Autor::create(['nombre' => 'J.K. Rowling']);
     }
 }

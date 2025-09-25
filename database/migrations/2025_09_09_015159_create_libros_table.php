@@ -13,14 +13,16 @@ return new class extends Migration
     {
         Schema::create('libros', function (Blueprint $table) {
             $table->id();
-            $table->string('isbn',50)->unique();
-            $table->string('titulo',150);
-            $table->string('autor',100);
-            $table->string('genero',50)->nullable();
+            $table->string('isbn_libro', 17)->unique();
+            $table->string('titulo', 150);
+            $table->unsignedBigInteger('autor_id'); 
+            $table->foreign('autor_id')->references('id')->on('autores')->onDelete('cascade');
+            $table->string('editorial');  
             $table->date('fecha_publicacion')->nullable();
-            $table->string('stock_total')->default(0);
-            $table->string('stock_disponible')->default(0);
+            $table->integer('stock_total')->default(0);
+            $table->integer('stock_disponible')->default(0);
             $table->timestamps();
+            $table->softDeletes(); 
         });
     }
 

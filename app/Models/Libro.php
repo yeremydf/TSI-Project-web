@@ -3,20 +3,41 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 class Libro extends Model
 {
-    protected $primaryKey = 'id_libro_interno';
-
+    use HasFactory;
+    use SoftDeletes;
+    protected $primaryKey = 'id';
+    
     protected $fillable = [
+        'id',
         'isbn_libro',
-        'nom_libro',
+        'titulo',
         'fecha_publicacion',
         'editorial',
-        'genero_literario',
-        'cantidad_disponible',
-        'id_ubicacion',
-        'id_detalle_autores',
+        'genero_id',
+        'stock_total',      
+        'stock_disponible',
+        'ubicacion_id',   
+        'autor_id',       
         'imagen',
     ];
+    
+
+    public function autor()
+    {
+        return $this->belongsTo(Autor::class);
+    }
+
+    public function ubicacion()
+    {
+        return $this->belongsTo(Ubicacion::class);
+    }
+
+    public function genero()
+    {
+        return $this->belongsTo(GeneroLiterario::class, 'genero_id');
+    }
 }
